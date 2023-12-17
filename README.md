@@ -64,7 +64,13 @@ HTTP: POST /api/user
 
 <img width="1440" alt="Screenshot 2023-12-18 at 12 53 30 AM" src="https://github.com/Rish-it/MINI_Gofr/assets/104666906/0211dbf7-dc7a-4d8c-af44-857b5103cdb0">
 
-![Screenshot 2023-12-18 at 1 28 05 AM](https://github.com/Rish-it/MINI_Gofr/assets/104666906/45a4027b-3e96-4602-b245-f29bd1a26cc3)
+
+
+---------------------------------------------------------------------------------------------------------------
+
+
+![image](https://github.com/Rish-it/MINI_Gofr/assets/104666906/a4a8a3c4-bb53-444f-a23e-79c39d3f4072)
+
 
 ## Acknowledgments
 
