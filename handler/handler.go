@@ -47,15 +47,15 @@ func CreateUser(r *ghttp.Request) {
 		return
 	}
 
-	// Generate a unique user ID
+	// Generating a unique user ID
 	userID++
 	user := model.User{
 		ID:    userID,
 		Name:  name.(string),
-		Email: email.(string), // Add type assertion to convert email to string
+		Email: email.(string),
 	}
 
-	// Save the user in the in-memory map
+	// Saving the user in the in-memory map
 	users[userID] = user
 
 	r.Response.WriteJson(g.Map{"message": "User created successfully", "user": user})
