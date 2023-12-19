@@ -1,0 +1,80 @@
+{
+    "info": {
+      "_postman_id": "a_unique_id",
+      "name": "Mini Gofr CRM API",
+      "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "item": [
+      {
+        "name": "List Users",
+        "request": {
+          "method": "GET",
+          "header": [],
+          "url": {
+            "raw": "http://localhost:8080/api/users",
+            "protocol": "http",
+            "host": [
+              "localhost"
+            ],
+            "port": "8080",
+            "path": [
+              "api",
+              "users"
+            ]
+          }
+        },
+        "response": []
+      },
+      {
+        "name": "Get User by ID",
+        "request": {
+          "method": "GET",
+          "header": [],
+          "url": {
+            "raw": "http://localhost:8080/api/user/1",
+            "protocol": "http",
+            "host": [
+              "localhost"
+            ],
+            "port": "8080",
+            "path": [
+              "api",
+              "user",
+              "1"
+            ]
+          }
+        },
+        "response": []
+      },
+      {
+        "name": "Create User",
+        "request": {
+          "method": "POST",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": {
+            "mode": "raw",
+            "raw": "{\"name\": \"John Doe\", \"email\": \"john.doe@example.com\"}"
+          },
+          "url": {
+            "raw": "http://localhost:8080/api/user",
+            "protocol": "http",
+            "host": [
+              "localhost"
+            ],
+            "port": "8080",
+            "path": [
+              "api",
+              "user"
+            ]
+          }
+        },
+        "response": []
+      }
+    ]
+  }
+  
